@@ -13,8 +13,7 @@ try:
     if len(cheeseburger) == 4:
         for lettuce in cheeseburger:
                 rice.append(str(hex(ord(lettuce))))
-
-
+          
     for pineapple in pizza[::-1]:
         pepperoni += 1
         rice.append(ord(pineapple))
